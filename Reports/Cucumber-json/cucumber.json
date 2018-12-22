@@ -1,0 +1,274 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 149213911553,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the application",
+            "match": {
+              "location": "Login.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7777388,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify home page title",
+            "match": {
+              "location": "Login.verify_home_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247874204,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Login.click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5297370297,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobleHooks.beforeScenario1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 178087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobleHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login to Makemy trip with valid functionality",
+        "description": "",
+        "id": "makemy-trip-login-functionality;login-to-makemy-trip-with-valid-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2724135085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobleHooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20278767176,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter user name \"bsiva.kumar070@gmail.com\"and password \"siva@123B\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bsiva.kumar070@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "siva@123B",
+                  "offset": 58
+                }
+              ],
+              "location": "Login.i_enter_user_name_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Makemy trip Login functionality",
+    "description": "",
+    "id": "makemy-trip-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4354327488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobleHooks.beforeScenario1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 125218,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobleHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "SignUp into Make my trip account",
+        "description": "",
+        "id": "creating-make-my-trip-account;signup-into-make-my-trip-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2702395500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobleHooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118159744390,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the application",
+            "match": {
+              "location": "Login.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6573582111,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on signup link",
+            "match": {
+              "location": "SignUp.click_on_signup_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 993024931,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter email into Email text filed \"sivakumarb070@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sivakumarb070@gmail.com",
+                  "offset": 40
+                }
+              ],
+              "location": "SignUp.user_enter_email_into_Email_text_filed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281644391,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter phone number into Mobile number text field \"9606653856\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9606653856",
+                  "offset": 55
+                }
+              ],
+              "location": "SignUp.user_enter_phone_number_into_Mobile_number_text_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158973607,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter password into Password text field \"Siva@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Siva@123",
+                  "offset": 46
+                }
+              ],
+              "location": "SignUp.user_enter_password_into_Password_text_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134988459,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on signUp button",
+            "match": {
+              "location": "SignUp.click_on_signUp_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Creating Make my trip account",
+    "description": "",
+    "id": "creating-make-my-trip-account",
+    "keyword": "Feature",
+    "uri": "SignUp.feature"
+  }
+]
