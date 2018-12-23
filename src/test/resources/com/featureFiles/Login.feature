@@ -8,6 +8,7 @@ Then Click on login button
 Scenario Outline: Login to Makemy trip with valid functionality
 
 Then I enter user name "<username>"and password "<password>"
+Then click on logout button
 
 Examples:
 |username|password|

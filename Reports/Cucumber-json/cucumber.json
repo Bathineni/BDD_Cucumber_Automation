@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 149213911553,
+              "duration": 12832595787,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 7777388,
+              "duration": 9520240,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 247874204,
+              "duration": 1377031307,
               "status": "passed"
             },
             "line": 6,
@@ -51,7 +51,7 @@
         "before": [
           {
             "result": {
-              "duration": 5297370297,
+              "duration": 7516935900,
               "status": "passed"
             },
             "match": {
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 178087,
+              "duration": 159073,
               "status": "passed"
             },
             "match": {
@@ -68,14 +68,14 @@
             }
           }
         ],
-        "line": 14,
+        "line": 15,
         "name": "Login to Makemy trip with valid functionality",
         "description": "",
         "id": "makemy-trip-login-functionality;login-to-makemy-trip-with-valid-functionality;;2",
         "after": [
           {
             "result": {
-              "duration": 2724135085,
+              "duration": 2973063859,
               "status": "passed"
             },
             "match": {
@@ -88,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20278767176,
+              "duration": 17864111179,
               "status": "passed"
             },
             "line": 10,
@@ -111,6 +111,18 @@
               1
             ],
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 366071528,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on logout button",
+            "match": {
+              "location": "Login.click_on_logout_button()"
+            },
+            "keyword": "Then "
           }
         ]
       }
@@ -128,7 +140,7 @@
         "before": [
           {
             "result": {
-              "duration": 4354327488,
+              "duration": 4114548976,
               "status": "passed"
             },
             "match": {
@@ -137,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 125218,
+              "duration": 44058,
               "status": "passed"
             },
             "match": {
@@ -152,7 +164,7 @@
         "after": [
           {
             "result": {
-              "duration": 2702395500,
+              "duration": 2851967863,
               "status": "passed"
             },
             "match": {
@@ -165,7 +177,7 @@
         "steps": [
           {
             "result": {
-              "duration": 118159744390,
+              "duration": 7008226790,
               "status": "passed"
             },
             "line": 4,
@@ -177,7 +189,7 @@
           },
           {
             "result": {
-              "duration": 6573582111,
+              "duration": 246685910,
               "status": "passed"
             },
             "line": 5,
@@ -189,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 993024931,
+              "duration": 1207217352,
               "status": "passed"
             },
             "line": 6,
@@ -210,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 281644391,
+              "duration": 385551198,
               "status": "passed"
             },
             "line": 7,
@@ -231,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 158973607,
+              "duration": 337915212,
               "status": "passed"
             },
             "line": 8,
@@ -252,7 +264,7 @@
           },
           {
             "result": {
-              "duration": 134988459,
+              "duration": 185401216,
               "status": "passed"
             },
             "line": 9,

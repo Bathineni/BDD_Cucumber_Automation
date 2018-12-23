@@ -13,7 +13,7 @@ public class ReusableFunctions extends CoreUtils {
 	
 	public static String getPPt(String propertyKey) {
 		String v=null;
-		String propertyFilePath="E:\\BDD_Cucumber_Automation\\target\\Global Settings.properties";
+		String propertyFilePath="E:\\BDD_Cucumber_Automation\\src\\test\\resources\\Global Settings.properties.txt";
 		try {
 			FileInputStream file=new FileInputStream(new File(propertyFilePath));
 			Properties prop=new Properties();

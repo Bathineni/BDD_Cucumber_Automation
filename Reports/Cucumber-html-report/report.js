@@ -19,8 +19,13 @@ formatter.step({
   "name": "I enter user name \"\u003cusername\u003e\"and password \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 11,
+  "name": "click on logout button",
+  "keyword": "Then "
+});
 formatter.examples({
-  "line": 12,
+  "line": 13,
   "name": "",
   "description": "",
   "id": "makemy-trip-login-functionality;login-to-makemy-trip-with-valid-functionality;",
@@ -30,7 +35,7 @@ formatter.examples({
         "username",
         "password"
       ],
-      "line": 13,
+      "line": 14,
       "id": "makemy-trip-login-functionality;login-to-makemy-trip-with-valid-functionality;;1"
     },
     {
@@ -38,18 +43,18 @@ formatter.examples({
         "bsiva.kumar070@gmail.com",
         "siva@123B"
       ],
-      "line": 14,
+      "line": 15,
       "id": "makemy-trip-login-functionality;login-to-makemy-trip-with-valid-functionality;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5297370297,
+  "duration": 7516935900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 178087,
+  "duration": 159073,
   "status": "passed"
 });
 formatter.background({
@@ -78,25 +83,25 @@ formatter.match({
   "location": "Login.launch_the_application()"
 });
 formatter.result({
-  "duration": 149213911553,
+  "duration": 12832595787,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.verify_home_page_title()"
 });
 formatter.result({
-  "duration": 7777388,
+  "duration": 9520240,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.click_on_login_button()"
 });
 formatter.result({
-  "duration": 247874204,
+  "duration": 1377031307,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
+  "line": 15,
   "name": "Login to Makemy trip with valid functionality",
   "description": "",
   "id": "makemy-trip-login-functionality;login-to-makemy-trip-with-valid-functionality;;2",
@@ -110,6 +115,11 @@ formatter.step({
     0,
     1
   ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "click on logout button",
   "keyword": "Then "
 });
 formatter.match({
@@ -126,11 +136,18 @@ formatter.match({
   "location": "Login.i_enter_user_name_and_password(String,String)"
 });
 formatter.result({
-  "duration": 20278767176,
+  "duration": 17864111179,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Login.click_on_logout_button()"
+});
+formatter.result({
+  "duration": 366071528,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2724135085,
+  "duration": 2973063859,
   "status": "passed"
 });
 formatter.uri("SignUp.feature");
@@ -207,11 +224,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4354327488,
+  "duration": 4114548976,
   "status": "passed"
 });
 formatter.before({
-  "duration": 125218,
+  "duration": 44058,
   "status": "passed"
 });
 formatter.scenario({
@@ -265,14 +282,14 @@ formatter.match({
   "location": "Login.launch_the_application()"
 });
 formatter.result({
-  "duration": 118159744390,
+  "duration": 7008226790,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp.click_on_signup_link()"
 });
 formatter.result({
-  "duration": 6573582111,
+  "duration": 246685910,
   "status": "passed"
 });
 formatter.match({
@@ -285,7 +302,7 @@ formatter.match({
   "location": "SignUp.user_enter_email_into_Email_text_filed(String)"
 });
 formatter.result({
-  "duration": 993024931,
+  "duration": 1207217352,
   "status": "passed"
 });
 formatter.match({
@@ -298,7 +315,7 @@ formatter.match({
   "location": "SignUp.user_enter_phone_number_into_Mobile_number_text_field(String)"
 });
 formatter.result({
-  "duration": 281644391,
+  "duration": 385551198,
   "status": "passed"
 });
 formatter.match({
@@ -311,18 +328,18 @@ formatter.match({
   "location": "SignUp.user_enter_password_into_Password_text_field(String)"
 });
 formatter.result({
-  "duration": 158973607,
+  "duration": 337915212,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp.click_on_signUp_button()"
 });
 formatter.result({
-  "duration": 134988459,
+  "duration": 185401216,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2702395500,
+  "duration": 2851967863,
   "status": "passed"
 });
 });

@@ -52,6 +52,13 @@ public class Login {
 		   
 	}
 	
+	@Then("^click on logout button$")
+	public void click_on_logout_button() throws Throwable {
+	    Actions action=new Actions(CoreUtils.driver);
+	    action.moveToElement(CoreUtils.driver.findElement(By.xpath("//a[@id='ch_logged-in']"))).build().perform();
+	    CoreUtils.driver.findElement(By.xpath("//li/a[text()='Logout']")).click();
+	}
+	
 	
 	
 
